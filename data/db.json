@@ -1,0 +1,10 @@
+{
+  "api": [
+    {
+      "id": 1,
+      "name": "Bananas",
+      "quantity": "3",
+      "price": "5"
+    }
+  ]
+}

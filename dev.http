@@ -1,0 +1,30 @@
+###
+GET http://127.0.0.1:3000/api/
+
+###
+
+GET http://127.0.0.1:3000/api/3
+
+###
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Oranges",
+    "price": 15,
+    "quantity": 5
+}
+
+###
+DELETE http://localhost:3000/api/2
+
+###
+PUT http://localhost:3000/api/1
+Content-Type: application/json
+
+{
+    "name": "Pears",
+    "price": 20,
+    "quantity": 5
+}
