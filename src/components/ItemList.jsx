@@ -25,8 +25,8 @@ function ItemList({ shoppingList, onDeleteItem, onUpdateItem }) {
       updatedItem.price < 0
     ) {
       alert("Please enter valid positive numbers for quantity and price.");
-      priceRef.current.value = quantityRef.current.defaultValue;
-      quantityRef.current.value = priceRef.current.defaultValue;
+      priceRef.current.value = priceRef.current.defaultValue;
+      quantityRef.current.value = quantityRef.current.defaultValue;
       return;
     }
 
